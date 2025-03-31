@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body class="main-body">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a showcase of my work and experience.</p>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I'm a Computer Information Systems student passionate about graphic design, web development, and DJing.</p>
+        <video class="video" width="320" height="240" controls>
+            <source src="youtube_jHvaghMh32A_720x1280_h264.mp4" type="video/mp4">
+        </video>
+    </section>
+    
+    <!-- Work Section -->
+    <section id="work" class="section">
+        <h2>My Work</h2>
+        <ul class="work-list">
+            <li>Client database management for a restaurant</li>
+            <li>Graphic design projects (logos, posters, digital art)</li>
+            <li>Building a large song database as a DJ</li>
+        </ul>
+    </section>
+    
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <table class="resume-table">
+            <tr>
+                <th>Experience</th>
+                <th>Skills</th>
+            </tr>
+            <tr>
+                <td>Client database management</td>
+                <td>Excel, Data Entry</td>
+            </tr>
+            <tr>
+                <td>Graphic Design</td>
+                <td>Photoshop, Illustrator</td>
+            </tr>
+            <tr>
+                <td>DJing</td>
+                <td>Mixing, Song Curation</td>
+            </tr>
+        </table>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    
+    <!-- Page Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 My Portfolio.</p>
+        <audio controls class="footer-audio">
+            <source src="Odeal - Be Easy.mp3" type="audio/mpeg">
+        </audio>
+    </footer>
+</body>
+</html>
